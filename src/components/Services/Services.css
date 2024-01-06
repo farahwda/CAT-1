@@ -1,0 +1,99 @@
+.r-container {
+  gap: 5rem;
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(199, 76, 123, 0.719);
+}
+
+.r-head{
+  margin-bottom: 2rem;
+}
+.r-card {
+  gap: 0.6rem;
+  padding: 1rem;
+  border-radius: 10px;
+  max-width: max-content;
+  margin: auto;
+  background-color: #fadad2;
+  transition: all 300ms ease-in;
+  box-shadow: 0px 0px 15px -5px;
+}
+
+.r-card > img {
+  width: 100%;
+  max-width: 15rem;
+  height: 10rem; /* Adjust the height as needed */
+  object-fit: cover; /* This ensures that the image covers the specified height */
+  border-radius: 10px; /* Adjust the border-radius to control the level of rounding */
+}
+
+.r-card > :nth-child(2) {
+  font-size: 1.0rem;
+  font-weight: 600;
+}
+
+.r-card:hover {
+  scale: 1.025;
+  cursor: pointer;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    #8b7d6b 217.91%
+  );
+  box-shadow: 0px 72px 49px -51px #FFD1DC;
+}
+
+/* .buttonFlex {
+  background: linear-gradient(45deg, #ffc0cb, #ffafc8);  
+  color: #333; 
+  padding: 10px 20px; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.buttonFlex:hover {
+  background: linear-gradient(45deg, #ffb6c1, #ff9fad); 
+  color: #050404;
+} */
+
+.swiper-horizontal{
+  overflow: visible;
+}
+
+.r-buttons {
+  position: absolute;
+  gap: 1rem;
+  top: -4rem;
+  right: 0;
+}
+
+.r-buttons button {
+  font-size: 1.2rem;
+  padding: .2rem .8rem;
+  color: #800020;
+  border: none;
+  border-radius: 5px;
+  background-color: #dfcdcf; /* Set the background color to be the same as the first child */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.r-buttons button:hover {
+  background-color: #ff9fad; /* Change color on hover to be like the first child */
+}
+
+.r-buttons>:nth-child(2) {
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+}
+
+
+@media (max-width: 640px) {
+  .r-head{
+  align-items: center;
+  }
+  .r-buttons{
+    position: initial;
+  }
+}

@@ -1,38 +1,22 @@
 [
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "name": "Wedding Planner",
+    "detail": "Experience the wedding of your dreams stress-free with our expert wedding planning services.From selecting enchanting venues to managing every detail, our professional planners ensure your special day is as magical as your love story.",
+    "image": "./r1.jpeg"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "name": "Venue",
+    "detail": "Elevate your wedding experience with our stunning venue options. Whether you envision a romantic garden setting or a classic banquet hall, our venues set the perfect stage for your celebration. Explore spaces, amenities, and catering that match your style.",
+    "image": "./r2.jpeg"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "name": "Photography",
+    "detail": "Capture the magic of your wedding day with our artistic photography services. Our skilled photographers specialize in preserving candid moments and genuine emotions. Let us create a visual narrative that tells your unique love story, ensuring memories that last a lifetime.",
+    "image": "./r3.jpeg"
   },
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
-  },
-  {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
-  },
-  {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "name": "Attire",
+    "detail": "Radiate confidence on your big day with our exquisite wedding attire services. From elegant gowns to dashing suits and accessories, we offer a curated collection to suit your style. Enjoy personalized fittings and consultations for an ensemble that reflects your individuality.",
+    "image": "./r4.jpeg"
   }
 ]

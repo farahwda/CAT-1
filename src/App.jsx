@@ -5,7 +5,7 @@ import Footer from "./components/Footer/Footer";
 import GetStarted from "./components/GetStarted/GetStarted";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
-import Residencies from "./components/Residencies/Residencies";
+import Residencies from "./components/Services/Services";
 import Value from "./components/Value/Value";
 import Video from "./components/Video/Video";
 
@@ -19,7 +19,6 @@ function App() {
         <Video />
         <Hero />
       </div>
-      <Companies />
       <Residencies/>
       <Value/>
       <Contact/>

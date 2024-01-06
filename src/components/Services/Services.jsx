@@ -3,15 +3,16 @@ import data from "../../utils/slider.json";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
-import "./Residencies.css";
+import "./Services.css";
 import { sliderSettings } from "../../utils/common";
-const Residencies = () => {
+import { TfiBook } from "react-icons/tfi";
+
+const Services = () => {
   return (
-    <div id="residencies" className="r-wrapper">
+    <div id="services" className="r-wrapper">
       <div className="paddings innerWidth r-container">
         <div className="flexColStart r-head">
-          <span className="orangeText">Best Choices</span>
-          <span className="primaryText">Popular Residencies</span>
+          <span className="primaryText">Our Services</span>
         </div>
         <Swiper {...sliderSettings}>
           <SlideNextButton />
@@ -20,14 +21,12 @@ const Residencies = () => {
             <SwiperSlide key={i}>
               <div className="flexColStart r-card">
                 <img src={card.image} alt="home" />
-
-                <span className="secondaryText r-price">
-                  <span style={{ color: "orange" }}>$</span>
-                  <span>{card.price}</span>
-                </span>
                 <span className="primaryText">{card.name}</span>
                 <span className="secondaryText">{card.detail}</span>
+                {/* <button className="buttonFlex">Read More</button> */}
               </div>
+
+              
             </SwiperSlide>
           ))}
         </Swiper>
@@ -36,7 +35,7 @@ const Residencies = () => {
   );
 };
 
-export default Residencies;
+export default Services;
 
 const SlideNextButton = () => {
   const swiper = useSwiper();

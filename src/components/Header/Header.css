@@ -29,7 +29,7 @@
 /* Styles for the company name */
 .header-company-name {
   font-size: 45px; /* Adjust the size as needed */
-  color: rgb(5, 0, 3);
+  color: rgb(255, 255, 255);
 }
 .h-menu button {
   background-color: #6e0110;
